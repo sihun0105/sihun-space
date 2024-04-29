@@ -4,7 +4,7 @@ interface FooterProps {}
 
 const Footer: FunctionComponent<FooterProps> = ({}) => {
   return (
-    <footer className="footer flex justify-between bg-white p-10">
+    <footer className="footer bottom-0 flex justify-between p-10">
       <aside>
         <p>© 2024 Sihun.</p>
       </aside>

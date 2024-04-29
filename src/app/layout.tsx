@@ -1,10 +1,16 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import '../styles/globals.css'
-import Footer from './components/semantic/footer'
+import Footer from '../components/app/footer'
+import { Roboto } from 'next/font/google'
+import { cn } from '@/lib/utils'
+import Navbar from '@/components/app/navbar'
 
-const inter = Inter({ subsets: ['latin'] })
-
+const roboto = Roboto({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 export const metadata: Metadata = {
   title: 'sihun-space',
   description: 'sihun-space',
@@ -18,7 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={cn('px-64', roboto.className)}>
+        <header className="header-h w-full ">
+          <Navbar />
+        </header>
         {children}
         <Footer />
       </body>
