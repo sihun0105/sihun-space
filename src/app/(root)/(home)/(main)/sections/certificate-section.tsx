@@ -12,7 +12,7 @@ const CertificateSection: FunctionComponent<CertificateSectionProps> = ({}) => {
               <h3 className="w-2/5 whitespace-nowrap text-base font-bold md:w-40 md:text-lg">
                 정보처리기사
               </h3>
-              <div className="leading-2 ml-0 w-3/5 overflow-hidden whitespace-normal text-xs text-gray-500 md:ml-4 md:whitespace-nowrap md:text-sm">
+              <div className="leading-2 ml-0 w-3/5 overflow-hidden whitespace-normal text-end text-xs text-gray-500 md:ml-4 md:whitespace-nowrap md:text-sm">
                 <p>2024.06.18</p>
               </div>
             </div>
@@ -22,7 +22,7 @@ const CertificateSection: FunctionComponent<CertificateSectionProps> = ({}) => {
               <h3 className="w-2/5 whitespace-nowrap text-base font-bold md:w-40 md:text-lg">
                 컴퓨터활용능력 2급
               </h3>
-              <div className="leading-2 ml-0 w-3/5 overflow-hidden whitespace-normal text-xs text-gray-500 md:ml-4 md:whitespace-nowrap md:text-sm">
+              <div className="leading-2 ml-0 w-3/5 overflow-hidden whitespace-normal text-end text-xs text-gray-500 md:ml-4 md:whitespace-nowrap md:text-sm">
                 <p>2020.11.20</p>
               </div>
             </div>

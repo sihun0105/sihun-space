@@ -24,12 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn('px-64', roboto.className)}>
-        <header className="header-h w-full ">
-          <Navbar />
-        </header>
-        {children}
-        <Footer />
+      <body className={cn('flex justify-center', roboto.className)}>
+        <div className="min-w-[320px] max-w-[460px]">
+          <header className="header-h w-full ">
+            <Navbar />
+          </header>
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   )
